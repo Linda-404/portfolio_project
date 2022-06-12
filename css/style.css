@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+* {
+  font-family: 'PT Mono', monospace;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  text-shadow: red -2px 0, cyan 2px 0;
+}
+
+h2 {
+  font-size: clamp(0.6rem, 3vw, 0.8rem);
+}
+
+h3 {
+  font-size: clamp(0.4rem, 3vw, 0.6rem);
+}
+
+p {
+  font-size: clamp(0.4rem, 3vw, 0.6rem);
+}
+
+a {
+  font-size: clamp(0.4rem, 3vw, 0.8rem);
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: text-shadow 0.3s;
+}
+
+a:hover {
+  cursor: pointer;
+  text-shadow: red -2px 0, cyan 2px 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #e9e5e5;
+  height: 100%;
+}
+
+.layout__container {
+  height: 100vh;
+}
+
+main {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+}
+
+.card {
+  background: #e9e5e5;
+  box-shadow: 12px 12px 24px #c6c3c3, -12px -12px 24px #fff;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
