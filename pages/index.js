@@ -84,7 +84,7 @@ export default function Home() {
               <Title title="Peezy" />
               <section>
                 <SubTitle title="Made with:" />
-                <Paragraph text="HTML, Javascript, Sass" />
+                <Paragraph text="HTML, Javascript, bootstrap, Sass" />
               </section>
               <section>
                 <SubTitle title="Description:" />
